@@ -174,7 +174,8 @@ body {
 
 2.carpeta base
 2.1.dentro de la carpeta base creamos =_globales.scss y les dejo el estilo en el siguiente link
-[texto del enlace](https://github.com/BrandonGS22b/Music-Festival/blob/main/src/scss/base/_globales.scss)
+
+[Click aqui para ver el codigo](https://github.com/BrandonGS22b/Music-Festival/blob/main/src/scss/base/_globales.scss)
 
 
 2.2.dentro de la carpeta base creamos =_index.scss
