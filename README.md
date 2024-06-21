@@ -151,6 +151,36 @@ npm run dev
 
 ```
 
+<h3>Vamos a crear las siguientes carpetas y archivos para trabajar los estilos con sass y scss</h3>
+<h3>no nos preocupemos por la carpeta build se genera automaticamente en el gulpfile.js cuando ejecutamos el proyecto y esto se genera con la linea .pipe(dest('build/css'))</h3>
+![image](https://github.com/BrandonGS22b/Front/blob/main/node%20and%20sass/estructurascss.png)
+<h4>creamos lo siguiente:
+1. carpeta scss
+1.2.demtro de la carpeta scss creamos= app.scss  //este si va sin el _ porque no es una variable de entorno
+
+// src/scss/app.scss
+@use './base//variable' as v; 
+@use 'base/normaliza';
+
+```bash
+body {
+  font-family: v.$fuente_principal; //llamo a la varia v. y despues con el $ llamo a  la variable de entorno que esta en _variable.scss = $fuente_principal : "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: v.$negro;
+}
+```
+
+2.carpeta base
+2.1.dentro de la carpeta base creamos =_globales.scss y les dejo el estilo en el siguiente link
+![link](https://github.com/BrandonGS22b/Music-Festival/blob/main/src/scss/base/_globales.scss)
+
+
+2.2.dentro de la carpeta base creamos =_index.scss
+2.3.dentro de la carpeta base creamos =_normaliza.scss
+
+</h4>
+
 
 
 
