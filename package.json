@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "creando un proyecto con Sass,JavaScript-Css-NodeJs",
   "main": "index.js",
-  "type" :"module", 
+  "type": "module",
   "scripts": {
     "sass": "sass --watch src/scss:build/css",
-    "hola" : "gulp hola"
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
     "open": "^10.1.0"
   }
 }
