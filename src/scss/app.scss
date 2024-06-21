@@ -1,3 +1,10 @@
-body{
-    background-color: blue;
+// src/scss/app.scss
+@use './base//variable' as v; 
+@use 'base/normaliza';
+
+body {
+  font-family: v.$fuente_principal;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: v.$negro;
 }
