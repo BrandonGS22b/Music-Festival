@@ -1,0 +1,19 @@
+{
+  "name": "music-festival",
+  "version": "1.0.0",
+  "description": "creando un proyecto con Sass,JavaScript-Css-NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonGS22b/Music-Festival.git"
+  },
+  "author": "Brandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonGS22b/Music-Festival/issues"
+  },
+  "homepage": "https://github.com/BrandonGS22b/Music-Festival#readme"
+}
