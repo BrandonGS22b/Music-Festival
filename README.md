@@ -179,7 +179,15 @@ body {
 
 
 2.2.dentro de la carpeta base creamos =_index.scss
+```bash
+@forward 'normalize';
+@forward 'variable';
+@forward 'globales';
+```
+
 2.3.dentro de la carpeta base creamos =_normaliza.scss
+
+[Click aqui para ver el codigo](https://github.com/BrandonGS22b/Music-Festival/blob/main/src/scss/base/_normaliza.scss)
 
 </h4>
 
