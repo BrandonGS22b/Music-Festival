@@ -163,6 +163,7 @@ npm run dev
 @use 'base/normaliza';
 
 ```bash
+
 body {
   font-family: v.$fuente_principal; //llamo a la varia v. y despues con el $ llamo a  la variable de entorno que esta en _variable.scss = $fuente_principal : "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -173,7 +174,7 @@ body {
 
 2.carpeta base
 2.1.dentro de la carpeta base creamos =_globales.scss y les dejo el estilo en el siguiente link
-![link](https://github.com/BrandonGS22b/Music-Festival/blob/main/src/scss/base/_globales.scss)
+[texto del enlace](https://github.com/BrandonGS22b/Music-Festival/blob/main/src/scss/base/_globales.scss)
 
 
 2.2.dentro de la carpeta base creamos =_index.scss
