@@ -19,8 +19,7 @@ export function css(done){
 //implementamos el whatch para no estar levantando a cada rato el servicio
 export function dev(){
     console.log('Iniciando watch para cambios en SCSS...');
-    watch('src/scss/**/*.scss', css); //bucamos el archivo y llamamos la function css que esta arriba
-
+    watch('src/scss/**/*.scss', css); //buscamos el archivo y llamamos la function css que esta arriba
     //ese patron me permite bucar todo los archivos con ** y despues del /* me busca todos los archivos con .css
 }
 
