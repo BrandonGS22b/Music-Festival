@@ -5,7 +5,8 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"><!-- se agrega estilo css line en rgb-->
 
-<h3>Si descargastes este proyecto porfa ejecuta npm install para descargar node_modules</h3>
+<h3>Si descargastes este proyecto directamente porfa ejecuta npm install para descargar node_modules</h3>
+
 ```bash
 npm install
 
