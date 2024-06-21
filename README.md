@@ -153,6 +153,7 @@ npm run dev
 
 <h3>Vamos a crear las siguientes carpetas y archivos para trabajar los estilos con sass y scss</h3>
 <h3>no nos preocupemos por la carpeta build se genera automaticamente en el gulpfile.js cuando ejecutamos el proyecto y esto se genera con la linea .pipe(dest('build/css'))</h3>
+
 ![image](https://github.com/BrandonGS22b/Front/blob/main/node%20and%20sass/estructurascss.png)
 <h4>creamos lo siguiente:
 1. carpeta scss
