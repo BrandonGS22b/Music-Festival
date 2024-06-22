@@ -30,3 +30,20 @@
         
 }
 }
+
+//los mixins pueden tomar parametros como funciones 
+@mixin contenedor{  //@mixin es para generar el mixin
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.header-contenedor{
+    @include contenedor;
+    
+}
+
+.nav-contenerdor{
+    @include contenedor; //@include es para utilizar el mixin
+  
+}
