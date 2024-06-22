@@ -1,0 +1,38 @@
+//aqui vamos a poner todos los mixins que vayamos requeriendo de nuestro proyecto
+@use 'variable' as v;
+
+//telefono
+@mixin telefono {
+    @media (min-width: v.$telefono) {
+        @content;
+    }
+}
+//tablet
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+//desktop
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+//desktopXL
+@mixin desktopXL {
+    @media (min-width: v.$desktopXL) {
+        @content;
+    }
+}
+
+//ahora tenemos que ir al header y poner para cada dispositivo m.telefono , m.tablet , m.desktop , m.desktopXL
+
+/*
+@include m.telefono{
+        color:white;
+        width: 10px;
+        height: 1px;
+
+    }
+*/
