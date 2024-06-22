@@ -17,7 +17,16 @@
 }
 
 .navegacion-principal {
+    display: flex; //esto me da acceso al gap
+    gap: 2rem; //esto separa mi menu 2 rem para que no se vea pegado
     a {
         color: v.$blanco;
-    }
+        font-size: 2.4rem;
+
+
+        &:hover{//esto nos sirve para que cuando nos paremos encima el boton cambie de color
+            color: v.$amarillo;  //el & sirve para anidar el home a esta clase css
+        }
+        
+}
 }
