@@ -1,0 +1,39 @@
+//aqui vamos a importar variables y archivos para acomodar el video el css
+//vamos a trabajar con posiciones absolutas y relativas
+
+@use '../base/variable';
+@use '../base/mixins';
+
+.video{
+    position: relative;
+    .overlay{
+        position: absolute;
+        background: linear-gradient(
+            270deg,
+            rgba(v.$morado, 60%),
+            rgba(darken(v.$morado,20%), 90%)
+        );
+        inset: 0;
+
+
+    }
+
+    video{
+
+    }
+
+}
+
+.contenido-video{
+
+h2{
+
+
+}
+
+p{
+
+    
+}
+
+}
